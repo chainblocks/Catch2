@@ -129,6 +129,7 @@ namespace Matchers {
             }
 
             std::array<void const*, sizeof...(MatcherTs)> m_matchers;
+
         };
 
 
